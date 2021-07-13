@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>BHETAR SCHOOL</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+        <section class="sub-header1">
+            <nav>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">होम</a></li>
+                        <li><a href="index.html#course">COURSES</a></li>
+                        <li><a href="">संपर्क साधा </a></li>
+                        <li><a href="">ABOUT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+          <h1>आमच्याशी संपर्क साधा</h1>
+        </section> 
+
+<!----------contact us---------->
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d121011.70573545794!2d73.78624648382947!3d18.591351913671925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c880511d7c35%3A0xc4e495a8c1f663eb!2sMIT%20Academy%20of%20Engineering!5e0!3m2!1sen!2sin!4v1626088132707!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</section>  
+
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-home"></i> 
+                <span>
+                    <h5>XYZ Road, building(address)</h5>
+                    <p>city, state</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i> 
+                <span>
+                    <h5>+91 814#########</h5>
+                    <p>येथे आमच्याशी संपर्क साधा</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope-o"></i> 
+                <span>
+                    <h5>XYZ@gmail.com</h5>
+                    <p>काही शंका असल्यास ईमेल मोकळ्या मनाने करा</p>
+                </span>
+            </div>
+        </div>
+        <div class="contact-col">
+            <form action="form-handler.php" method="post">
+                <input type="text" name="name" placeholder="आपले नांव लिहा" required>
+                <input type="email" name="eail" placeholder="तुमचा ईमेल टाका" required>
+                <input type="text" name="subject" placeholder="तुमची समस्या टाका " required>
+                <textarea rows="8" name="message" placeholder="संदेश" required></textarea>
+                <button type="submit" class="button1">संदेश पाठवा</button>
+            </form>
+        </div>
+    </div>
+</section>
+  
+
+
+<!-------footer----------->
+<section class="footer">
+    <h4>About us</h4>
+    <p>Act as if whatever you do makes a difference</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made by xyz | pqr</p>
+</section>
+
+
+
+
+
+    
+<!--------javscript for toggle menu---------->
+<script>
+    var navLinks= document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+</script>
+</body>
+</html>

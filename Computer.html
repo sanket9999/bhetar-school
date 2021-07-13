@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>BHETAR SCHOOL</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+        <section class="sub-header">
+            <nav>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">होम</a></li>
+                        <li><a href="index.html#course">COURSES</a></li>
+                        <li><a href="contact.html">संपर्क साधा </a></li>
+                        <li><a href="">ABOUT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+          <h1>संगणक</h1>
+        </section> 
+
+
+
+
+        <!-------------section std-------------->
+        <section class="std">  
+            <div class="row1">
+                <div class="col1">
+                    <h3>वर्ग 5</h3>
+                    <p>डाउनलोड करण्या साठी लिंक वर क्लिक करा .</p>
+                    <ul>
+                        <li><a href="Fundamentals of computer.pptx" download="computer">Fundamentals of computer 1</a></li>
+                        <li><a href="">Computer basics</a></li>
+                        <li><a href="">Fun with paint</a></li>
+                        <li><a href="">Microsoft word</a></li>
+                        <li><a href="">Microsoft powerpoint</a></li>
+                    </ul>
+                </div>
+                <div class="col1">
+                  <h3>वर्ग 6</h3>
+                  <p>डाउनलोड करण्या साठी लिंक वर क्लिक करा .</p>
+                  <ul>
+                    <li><a href="">Fundamentals of computer 2</a></li>
+                    <li><a href="">Internet 1</a></li>
+                    <li><a href="">Microsoft word</a></li>
+                    <li><a href="">Microsoft powerpoint</a></li>
+                    <li><a href="">Microsoft excel</a></li>
+                </ul>
+              </div>
+              <div class="col1">
+                  <h3>वर्ग 7</h3>
+                  <p>डाउनलोड करण्या साठी लिंक वर क्लिक करा .</p>
+                  <ul>
+                    <li><a href="">Fundamentals of computer 3</a></li>
+                    <li><a href="">Internet 2</a></li>
+                    <li><a href="">Fun with paint</a></li>
+                    <li><a href="">Microsoft excel</a></li>
+                    <li><a href="">Typing</a></li>
+                </ul>
+              </div>
+            </div>
+        </section>
+
+  
+  
+
+
+<!-------footer----------->
+<section class="footer">
+    <h4>About us</h4>
+    <p>Act as if whatever you do makes a difference</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made by xyz | pqr</p>
+</section>
+
+
+
+
+
+    
+<!--------javscript for toggle menu---------->
+<script>
+    var navLinks= document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+</script>
+</body>
+</html>
